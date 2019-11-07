@@ -1,0 +1,41 @@
+.chat-container{
+    height: 100%;
+    .header-bar{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top:0;
+        z-index: 10;
+        height: 2.25rem;
+        
+    }
+    .chat-contents{
+        background: #eaeaea;
+        .am-list{
+            margin-bottom: 2.5rem;
+        }
+        .chat-me {
+            .am-list-extra{
+                flex-basis: auto;
+            }
+            .am-list-content{
+                padding-right: .75rem;
+                text-align: right;
+            }
+        }
+    }
+    
+    .am-tab-bar{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: #fafafa;
+        z-index: 10;
+        height: auto;
+        border-top:1px solid #e0e0e0;
+        .am-list-item{
+            background: #fafafa;
+        }
+    }
+}
